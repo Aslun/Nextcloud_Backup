@@ -44,7 +44,7 @@ echo ""
 fi
 
 #Lancement du backup
-nextcloud $commandline $nextcloud_filedire http://$username:$password@$web_nextcloud$nextcloud_directory
+$commandline $nextcloud_filedire http://$username:$password@$web_nextcloud$nextcloud_directory
 sendemail -f $FROM -t $TO -u $SUBJ -s $SERVER -m $MESSAGE -v -o message-charset=$CHARSET
 
 
