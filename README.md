@@ -3,15 +3,11 @@
 Développeur multi-platerformes                         
 Twitter : https://twitter.com/bastlanguedoc					   
 
-## Description
+##The description
+Backup / restore with Nextcloud and receive an email
 
-Backup / Restauration avec Nextcloud et une réception par e-mail
+##Requirements
+The required software is Debian 9, Sendemail, rsync & Nextcloud.
 
-## Requirements
-
-La configuration logicielle requise est Debian 9, Sendemail, rsync & Nextcloud
-
-
-## Installation
-
-Exécuter le script vous pouvez le mettre en Crontab sans soucis :) 
+##Installation
+Run the script that you can include in Crontab without worries :)
